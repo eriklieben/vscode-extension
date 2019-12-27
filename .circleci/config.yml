@@ -37,10 +37,10 @@ jobs:
     steps:
       - run:
           name: install VS Code Extension Manager
-          command: npm i vsce -g
+          command: npm i vsce
       - run:
           name: publish to marketplace
-          command: vsce publish -p ${VSCODE}
+          command: npx vsce publish -p ${VSCODE}
 
 workflows:
   version: 2
