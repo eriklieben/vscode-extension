@@ -40,7 +40,7 @@ jobs:
           command: npm i vsce -g
       - run:
           name: publish to marketplace
-          command: vsce publish -p $VSTOKEN
+          command: vsce publish -p ${VSCODE}
 
 workflows:
   version: 2
