@@ -1,6 +1,6 @@
 {
   "name": "aurelia-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A VS Code extension for Aurelia.",
   "icon": "images/logo.png",
   "keywords": [
